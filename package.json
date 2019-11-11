@@ -1,0 +1,27 @@
+{
+  "name": "urly",
+  "version": "1.0.0",
+  "description": "A URL shortener micro-service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "lint": "eslint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gharoro Pureheart",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.9",
+    "shortid": "^2.2.15",
+    "valid-url": "^1.0.9"
+  }
+}
